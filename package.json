@@ -11,7 +11,9 @@
     "puppeteer": "^0.12.0",
     "valid-url": "^1.0.9"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "ws": ">=3.3.1"
+  },
   "scripts": {
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
